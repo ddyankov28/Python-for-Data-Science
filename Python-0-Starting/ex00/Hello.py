@@ -22,7 +22,19 @@ ft_dict  = {"Hello" : "titi!"}
         # - Dictionaries are created using curly brackets
         # - Store data in KEY : VALUE pairs
         # - Ordered, changeable, no duplicates
+
+ft_list[1] = "World!"
+ft_tuple = (ft_tuple[0], "Austria!")
+ft_set.remove("tutu!")
+ft_set.add("Vienna!")
+ft_dict.update({"Hello":"42Vienna!"})
+
 print(ft_list)
 print(ft_tuple)
 print(ft_set)
 print(ft_dict)
+
+
+# resource:
+#     - https://www.w3schools.com/python/python_datatypes.asp
+#     - https://docs.python.org/3/tutorial/datastructures.html
