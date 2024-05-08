@@ -13,3 +13,8 @@ Python for Data Science
 -   Identification of object type and type-based output
 -   Function Implementation
 -   The NULL Types
+
+> [!TIP]
+> Useful resources
+
+- https://www.w3schools.com/python/python_datatypes.asp
