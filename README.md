@@ -13,6 +13,7 @@ Python for Data Science
 -   Identification of object type and type-based output
 -   Function Implementation
 -   The NULL Types
+-   How to use argv in python
 
 > [!TIP]
 > Useful resources
@@ -21,3 +22,6 @@ Python for Data Science
 - https://docs.python.org/3/
 - https://www.geeksforgeeks.org/python-programming-language/
 - https://www.tutorialspoint.com/python/index.htm
+
+> [!IMPORTANT]
+> There are more exercise depending resources in every .py file
