@@ -22,6 +22,7 @@ Python for Data Science
 - https://docs.python.org/3/
 - https://www.geeksforgeeks.org/python-programming-language/
 - https://www.tutorialspoint.com/python/index.htm
+- https://realpython.com/
 
 > [!IMPORTANT]
 > There are more exercise depending resources in every .py file
