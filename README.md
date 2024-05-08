@@ -4,8 +4,6 @@ Python for Data Science
 ![](python.jpg)
 
 > [!NOTE]
-> Here I am going to share with you what I have learned
-
 ## What I learned in `Python-0-Starting`
 -   The basic data structures and how to manipulate them
 -   How to work with and manipulate the time
