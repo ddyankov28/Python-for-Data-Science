@@ -17,14 +17,7 @@ Python for Data Science
 > [!TIP]
 > Useful resources
 
-- https://www.w3schools.com/python/python_datatypes.asp
-- https://docs.python.org/3/tutorial/datastructures.html
-- https://docs.python.org/3/library/time.html#module-time
-- https://www.w3schools.com/python/ref_string_format.asp
-- https://www.w3schools.com/python/python_datetime.asp
-- https://www.geeksforgeeks.org/python-time-module/
-- https://www.w3schools.com/python/python_functions.asp
-- https://www.w3schools.com/python/ref_keyword_none.asp
-- https://www.geeksforgeeks.org/python-check-if-nonetype-or-empty/
-- https://www.geeksforgeeks.org/check-if-the-value-is-infinity-or-nan-in-python/
-- https://www.w3schools.com/python/ref_func_isinstance.asp
+- https://www.w3schools.com/python/default.asp
+- https://docs.python.org/3/
+- https://www.geeksforgeeks.org/python-programming-language/
+- https://www.tutorialspoint.com/python/index.htm
