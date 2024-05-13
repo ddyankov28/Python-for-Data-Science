@@ -17,4 +17,4 @@ if len(sys.argv) > 1:
 # They are actually 3 most common ways to get the args
 # 1.sys.argv 2.getopt module 3.argparse module
 # resource:
-#       - https://www.geeksforgeeks.org/command-line-arguments-in-python/
+# - https://www.geeksforgeeks.org/command-line-arguments-in-python/

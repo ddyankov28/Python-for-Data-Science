@@ -15,5 +15,5 @@ def all_thing_is_obj(object: any) -> int:
         
 
 # resource:
-#       - https://www.w3schools.com/python/python_functions.asp
-#       - https://www.w3schools.com/python/python_datatypes.asp
+# - https://www.w3schools.com/python/python_functions.asp
+# - https://www.w3schools.com/python/python_datatypes.asp

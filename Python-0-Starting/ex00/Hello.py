@@ -36,5 +36,5 @@ print(ft_dict)
 
 
 # resource:
-#     - https://www.w3schools.com/python/python_datatypes.asp
-#     - https://docs.python.org/3/tutorial/datastructures.html
+# - https://www.w3schools.com/python/python_datatypes.asp
+# - https://docs.python.org/3/tutorial/datastructures.html

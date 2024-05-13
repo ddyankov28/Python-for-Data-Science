@@ -17,7 +17,7 @@ print(time.strftime("%b %d %Y", time.gmtime()))
 
 
 # resource:
-#     - https://docs.python.org/3/library/time.html#module-time
-#     - https://www.w3schools.com/python/ref_string_format.asp
-#     - https://www.w3schools.com/python/python_datetime.asp
-#     - https://www.geeksforgeeks.org/python-time-module/
+# - https://docs.python.org/3/library/time.html#module-time
+# - https://www.w3schools.com/python/ref_string_format.asp
+# - https://www.w3schools.com/python/python_datetime.asp
+# - https://www.geeksforgeeks.org/python-time-module/

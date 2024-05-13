@@ -23,7 +23,7 @@ def NULL_not_found(object: any) -> int:
 
 
 # resource:
-#       - https://www.w3schools.com/python/ref_keyword_none.asp
-#       - https://www.geeksforgeeks.org/python-check-if-nonetype-or-empty/
-#       - https://www.geeksforgeeks.org/check-if-the-value-is-infinity-or-nan-in-python/
-#       - https://www.w3schools.com/python/ref_func_isinstance.asp
+# - https://www.w3schools.com/python/ref_keyword_none.asp
+# - https://www.geeksforgeeks.org/python-check-if-nonetype-or-empty/
+# - https://www.geeksforgeeks.org/check-if-the-value-is-infinity-or-nan-in-python/
+# - https://www.w3schools.com/python/ref_func_isinstance.asp
