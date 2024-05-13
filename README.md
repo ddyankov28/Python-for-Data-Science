@@ -14,6 +14,8 @@ Python for Data Science
 -   Function Implementation
 -   The NULL Types
 -   How to use argv in python
+-   How to define a main function and to use it
+-   What is flake8 and how to use it
 
 > [!TIP]
 > Useful resources
