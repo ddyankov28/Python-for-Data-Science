@@ -16,6 +16,7 @@ Python for Data Science
 -   How to use argv in python
 -   How to define a main function and to use it
 -   What is flake8 and how to use it
+-   What is the __doc__ string
 
 > [!TIP]
 > Useful resources
