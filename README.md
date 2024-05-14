@@ -17,6 +17,8 @@ Python for Data Science
 -   How to define a main function and to use it
 -   What is flake8 and how to use it
 -   What is the __doc__ string
+-   Filter function
+-   List comprehensions and Lambda
 
 > [!TIP]
 > Useful resources
