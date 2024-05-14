@@ -9,7 +9,8 @@ def sumChars(sumString):
     upperLetters = sum(char.isupper() for char in sumString)
     lowerLetters = sum(char.islower() for char in sumString)
     spaces = sum(char.isspace() for char in sumString)
-    punctMarks = sum(not char.isalnum() and not char.isspace() for char in sumString)
+    punctMarks = sum(not char.isalnum()
+                     and not char.isspace() for char in sumString)
     digits = sum(char.isdigit() for char in sumString)
     print(f"The text contains {totalChars} characters:")
     print(f"{upperLetters} upper letters")
@@ -36,12 +37,10 @@ def main():
         print("\nProgram interrupted by user!")
     except Exception:
         print("Error!")
-    
 
 
 if __name__ == "__main__":
     main()
-
 # resource:
 # - https://realpython.com/if-name-main-python/
 # - https://www.freecodecamp.org/news/if-name-main-python-example/git
