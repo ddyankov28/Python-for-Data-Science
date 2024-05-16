@@ -20,6 +20,7 @@ Python for Data Science
 -   Filter function
 -   `List comprehensions` and `Lambda`
 -   The `yield` keyword
+-   `tqdm` and how to create progress bars with it
 
 > [!TIP]
 > Useful resources
