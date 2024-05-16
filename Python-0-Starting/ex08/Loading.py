@@ -1,7 +1,7 @@
 from time import sleep
 
 
-def ft_tqdm(lst: range) -> None:
+def ft_tqdm(lst: range) -> None: # type: ignore
     '''
     tqdm = Instantly make your loops show a smart progress meter
     just wrap any iterable with ft_tqdm(lst: range), and you're done!
@@ -28,3 +28,5 @@ if __name__ == "__main__":
 
 # resources:
 # - https://www.geeksforgeeks.org/enumerate-in-python/
+# - https://www.geeksforgeeks.org/python-yield-keyword/
+# - https://tqdm.github.io/

@@ -15,10 +15,11 @@ Python for Data Science
 -   The NULL Types
 -   How to use argv in python
 -   How to define a main function and to use it
--   What is flake8 and how to use it
--   What is the __doc__ string
+-   What is `flake8` and how to use it
+-   What is the `__doc__` string
 -   Filter function
--   List comprehensions and Lambda
+-   `List comprehensions` and `Lambda`
+-   The `yield`keyword
 
 > [!TIP]
 > Useful resources
@@ -28,6 +29,7 @@ Python for Data Science
 - https://www.geeksforgeeks.org/python-programming-language/
 - https://www.tutorialspoint.com/python/index.htm
 - https://realpython.com/
+- https://pypi.org/
 
 > [!IMPORTANT]
 > There are more exercise depending resources in every .py file
