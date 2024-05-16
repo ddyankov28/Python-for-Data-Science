@@ -19,7 +19,7 @@ Python for Data Science
 -   What is the `__doc__` string
 -   Filter function
 -   `List comprehensions` and `Lambda`
--   The `yield`keyword
+-   The `yield` keyword
 
 > [!TIP]
 > Useful resources
