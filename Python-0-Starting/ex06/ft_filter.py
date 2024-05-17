@@ -36,8 +36,8 @@ def main():
         for y in adults1:
             print(y)
         print(filter.__doc__)
-    except Exception:
-        print("Error: Something went wrong")
+    except Exception as exc:
+        print(f"Error: Something went wrong: {exc}")
 
 
 if __name__ == "__main__":

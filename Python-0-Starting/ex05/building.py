@@ -35,8 +35,8 @@ def main():
             sumChars(sumString)
     except KeyboardInterrupt:
         print("\nProgram interrupted by user!")
-    except Exception:
-        print("Error!")
+    except Exception as exc:
+        print(f"Error! {exc}")
 
 
 if __name__ == "__main__":

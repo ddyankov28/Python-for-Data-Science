@@ -55,17 +55,20 @@ def main():
     '''
     Encodes string into Morse Code
     '''
-    if len(sys.argv[1:]) != 1:
-        print("AssertionError: the arguments are bad")
-    else:
-        morseString = ""
-        if checkInput(sys.argv[1]):
-            upperString = sys.argv[1].upper()
-            for char in upperString:
-                morseString += NESTED_MORSE[char]
-            print(morseString)
-        else:
+    try:
+        if len(sys.argv[1:]) != 1:
             print("AssertionError: the arguments are bad")
+        else:
+            morseString = ""
+            if checkInput(sys.argv[1]):
+                upperString = sys.argv[1].upper()
+                for char in upperString:
+                    morseString += NESTED_MORSE[char]
+                print(morseString)
+            else:
+                print("AssertionError: the arguments are bad")
+    except Exception as exc:
+        print(f"Error! {exc}")
 
 
 if __name__ == "__main__":

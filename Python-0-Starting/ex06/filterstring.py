@@ -27,16 +27,19 @@ def main():
     '''
     The main function
     '''
-    if len(sys.argv[1:]) != 2:
-        print("Assertion Error: the arguments are bad")
-    elif not isinstance(sys.argv[1], str) or not sys.argv[2].isdigit():
-        print("Assertion Error: the arguments are bad")
+    try:
+        if len(sys.argv[1:]) != 2:
+            print("Assertion Error: the arguments are bad")
+        elif not isinstance(sys.argv[1], str) or not sys.argv[2].isdigit():
+            print("Assertion Error: the arguments are bad")
 
-    else:
-        if checkSpecialChars(sys.argv[1]):
-            outputWords(sys.argv[1], int(sys.argv[2]))
         else:
-            print("Special characters are not allowed")
+            if checkSpecialChars(sys.argv[1]):
+                outputWords(sys.argv[1], int(sys.argv[2]))
+            else:
+                print("Special characters are not allowed")
+    except Exception as exc:
+        print(f"Error! {exc}")
 
 
 if __name__ == "__main__":
