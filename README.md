@@ -21,7 +21,9 @@ Python for Data Science
 -   🔄 `List comprehensions` and `Lambda`
 -   🌱 The `yield` keyword
 -   📊 `tqdm` and how to create progress bars with it
--   📦 `Python Packages` and how to create yours
+-   📦 `Python Packages` and how to create one
+
+##  🐍 `Python-1-Array` 🐍
 
 > [!TIP]
 > Useful resources
