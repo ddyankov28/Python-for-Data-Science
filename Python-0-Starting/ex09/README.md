@@ -12,3 +12,8 @@
 
 ## Uninstall
 - pip uninstall ft_package
+
+> [!TIP]
+> Useful resources
+> https://packaging.python.org/en/latest/tutorials/packaging-projects/
+> https://www.youtube.com/watch?v=tEFkHEKypLI&ab_channel=NeuralNine
