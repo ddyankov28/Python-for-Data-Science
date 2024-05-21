@@ -28,7 +28,10 @@ def main():
         if len(sys.argv[1:]) > 1:
             print("AssertionError")
         elif len(sys.argv[1:]) == 0:
-            sumString = input("What is the text to count?\n")
+            print("What is the text to count?")
+            file = open(0, 'r')
+            line = file.readline()
+            sumString = line
             sumChars(sumString)
         else:
             sumString = sys.argv[1]
