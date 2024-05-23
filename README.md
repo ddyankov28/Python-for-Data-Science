@@ -36,6 +36,7 @@ Python for Data Science
 - https://www.tutorialspoint.com/python/index.htm
 - https://realpython.com/
 - https://pypi.org/
+- https://numpy.org/devdocs/index.html
 
 > [!IMPORTANT]
 > There are more exercise depending resources in every .py file
