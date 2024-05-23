@@ -8,12 +8,12 @@ def give_bmi(height: list[int | float],
     @param:
         - height: int / float list
         - weight: int / float list
-    -------       
+    -------
     @rtype
         - int / float list
     -------
     @returns
-        - int / float list with BMI values
+        - list with BMI values
     '''
     assert all(isinstance(heightValue, (int, float))
                for heightValue in height), "Height value not int or float"
@@ -28,10 +28,16 @@ def give_bmi(height: list[int | float],
 
 def apply_limit(bmi: list[int | float], limit: int) -> list[bool]:
     '''
-    Checks if BMI value is biger than 
+    Checks if BMI value is biger than a given limit
     @params
         - bmi: int/float list
         - limit: int
+    -------
+    @rtype
+        - bool list
+    -------
+    @returns
+        - list with True / False
     '''
     assert all(isinstance(bmiValue, (int, float))
                for bmiValue in bmi), "BMI value not int or float"
