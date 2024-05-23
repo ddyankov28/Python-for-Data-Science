@@ -18,11 +18,12 @@ def slice_me(family: list, start: int, end: int) -> list:
         - Sliced list
     '''
     assert isinstance(family, list), "First argument to slice_me not a list"
-    assert all(len(sublist) == len(family[0]) for sublist in family), "Sublists not same size"
+    assert all(len(sublist) == len(family[0]) for sublist
+               in family), "Sublists not same size"
     fam = np.array(family)
     print(f"My shape is : {fam.shape}")
-    print(f"My new shape is: {fam[start:end].shape}")
-    return family[start:end]
+    print(f"My new shape is: {fam[slice(start, end)].shape}")
+    return family[slice(start, end)]
 
 # resources
 # - https://numpy.org/devdocs/user/absolute_beginners.html
