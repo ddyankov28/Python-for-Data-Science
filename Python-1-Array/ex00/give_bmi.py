@@ -1,8 +1,19 @@
 def give_bmi(height: list[int | float],
              weight: list[int | float]) -> list[int | float]:
     '''
-    Takes 2 lists of integers or floats in input and
-    returns a list of BMI values
+    Calculates Body Mass Index values with the
+    BMI formula:\n
+    weight / (height * height)
+    ------
+    @param:
+        - height: int / float list
+        - weight: int / float list
+    -------       
+    @rtype
+        - int / float list
+    -------
+    @returns
+        - int / float list with BMI values
     '''
     assert all(isinstance(heightValue, (int, float))
                for heightValue in height), "Height value not int or float"
@@ -17,30 +28,16 @@ def give_bmi(height: list[int | float],
 
 def apply_limit(bmi: list[int | float], limit: int) -> list[bool]:
     '''
-    Takes a list of integers or floats and an int representing
-    limit as parameters. Returns list of booleans(True if above limit)
+    Checks if BMI value is biger than 
+    @params
+        - bmi: int/float list
+        - limit: int
     '''
     assert all(isinstance(bmiValue, (int, float))
                for bmiValue in bmi), "BMI value not int or float"
     assert isinstance(limit, int), "Limit value not int"
     boolList = [bmiValue > limit for bmiValue in bmi]
     return boolList
-
-
-def main():
-    try:
-        height = [2.71, 1.15]
-        weight = [165.3, 38.4]
-
-        bmi = give_bmi(height, weight)
-        print(bmi, type(bmi))
-        print(apply_limit(bmi, 26))
-    except Exception as e:
-        print("Error:", e)
-
-
-if __name__ == "__main__":
-    main()
 
 
 # resources
