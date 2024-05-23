@@ -24,7 +24,9 @@ Python for Data Science
 -   📦 `Python Packages` and how to create one
 
 ##  🐍 `Python-1-Array` 🐍
-
+-   🎲 What is `NumPy` and how to use it
+-   📐 How to use multidimensional arrays in python
+-   🔪 How to slice strings and lists
 > [!TIP]
 > Useful resources
 
