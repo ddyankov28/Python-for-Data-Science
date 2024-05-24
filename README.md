@@ -37,6 +37,7 @@ Python for Data Science
 - https://realpython.com/
 - https://pypi.org/
 - https://numpy.org/devdocs/index.html
+- https://pillow.readthedocs.io/en/stable/index.html
 
 > [!IMPORTANT]
 > There are more exercise depending resources in every .py file
