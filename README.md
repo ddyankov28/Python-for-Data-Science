@@ -27,6 +27,9 @@ Python for Data Science
 -   🎲 What is `NumPy` and how to use it
 -   📐 How to use multidimensional arrays in python
 -   🔪 How to slice strings and lists
+-   🖼️ How to use image manipulating libraries
+-   📚 How the images are represented in arrays
+
 > [!TIP]
 > Useful resources
 
