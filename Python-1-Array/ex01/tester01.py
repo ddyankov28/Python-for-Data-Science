@@ -2,6 +2,9 @@ from array2D import slice_me
 
 
 def main():
+    '''
+    Creates 2D Array and uses the slice_me function on it
+    '''
     try:
         family = [[1.80, 78.4],
                   [2.15, 102.7],

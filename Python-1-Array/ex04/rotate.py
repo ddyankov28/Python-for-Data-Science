@@ -17,18 +17,17 @@ def main():
         croppedGreyArr = np.array(croppedGrey)
         reshapedCroppedGreyArr = croppedGreyArr[:, :, np.newaxis]
         print(f"The shape of image is: {reshapedCroppedGreyArr.shape}"
-            f" or {croppedGreyArr.shape}")
-        #print(reshapedCroppedGreyArr)
+              f" or {croppedGreyArr.shape}")
+        print(reshapedCroppedGreyArr)
         rotated = np.array([[croppedGreyArr[y][x]
-                    for y in range(len(croppedGreyArr))]
-                    for x in range(len(croppedGreyArr[0]))])
+                            for y in range(len(croppedGreyArr))]
+                            for x in range(len(croppedGreyArr[0]))])
         print(f"New shape after Transponse: {rotated.shape}")
         rotatedimg = Image.fromarray(rotated)
         rotatedimg.show()
         print(rotated)
     except Exception as e:
         print("Error: ", e)
-    
 
 
 if __name__ == "__main__":

@@ -22,10 +22,11 @@ def main():
         croppedGreyArr = np.array(croppedGrey)
         reshapedCroppedGreyArr = croppedGreyArr[:, :, np.newaxis]
         print(f"New shape after slicing: {reshapedCroppedGreyArr.shape}"
-            f" or {croppedGreyArr.shape}")
+              f" or {croppedGreyArr.shape}")
         print(reshapedCroppedGreyArr)
     except Exception as e:
         print("Error: ", e)
+
 
 if __name__ == "__main__":
     main()

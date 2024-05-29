@@ -22,6 +22,7 @@ def ft_load(path: str) -> np.array:
     assert img.mode == "RGB", "Image mode should be RGB"
     imgArray = np.array(img)
     print(f"The shape of image is: {imgArray.shape}")
+    img.show()
     return imgArray
 
 

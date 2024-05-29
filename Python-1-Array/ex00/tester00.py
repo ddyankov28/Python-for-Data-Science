@@ -2,6 +2,10 @@ from give_bmi import give_bmi, apply_limit
 
 
 def main():
+    '''
+    Creates a list of BMI Values, prints it and its type
+    and prints a list if values are above a given limit
+    '''
     try:
         height = [2.71, 1.15]
         weight = [165.3, 38.4]
