@@ -30,6 +30,9 @@ Python for Data Science
 -   🖼️ How to use image manipulating libraries
 -   📚 How the images are represented in arrays
 
+##  🐍 `Python-1-DataTable` 🐍
+-   🐼 What is `Pandas`and how to use it
+
 > [!TIP]
 > Useful resources
 
@@ -41,6 +44,7 @@ Python for Data Science
 - https://pypi.org/
 - https://numpy.org/devdocs/index.html
 - https://pillow.readthedocs.io/en/stable/index.html
+- https://pandas.pydata.org/
 
 > [!IMPORTANT]
 > There are more exercise depending resources in every .py file
