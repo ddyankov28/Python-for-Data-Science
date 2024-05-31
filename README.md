@@ -32,6 +32,7 @@ Python for Data Science
 
 ##  🐍 `Python-1-DataTable` 🐍
 -   🐼 What is `Pandas`and how to use it
+-   📄 How read from files, display and manipulate data
 
 > [!TIP]
 > Useful resources
