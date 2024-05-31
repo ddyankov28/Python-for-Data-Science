@@ -33,6 +33,7 @@ Python for Data Science
 ##  🐍 `Python-1-DataTable` 🐍
 -   🐼 What is `Pandas`and how to use it
 -   📄 How read from files, display and manipulate data
+-   📊 How to use Data Visualization libs
 
 > [!TIP]
 > Useful resources
@@ -46,6 +47,8 @@ Python for Data Science
 - https://numpy.org/devdocs/index.html
 - https://pillow.readthedocs.io/en/stable/index.html
 - https://pandas.pydata.org/
+- https://matplotlib.org/
+- https://seaborn.pydata.org/
 
 > [!IMPORTANT]
 > There are more exercise depending resources in every .py file
