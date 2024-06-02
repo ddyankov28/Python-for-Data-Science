@@ -1,31 +1,30 @@
 from load_csv import load
 import matplotlib.pyplot as plt
-import numpy as np
 
 
 def main():
     try:
         dataFrame = load("life_expectancy_years.csv")
-        dataFrameAustria = dataFrame[dataFrame["country"] == "Austria"]
-        xArray = []
-        y = dataFrameAustria.loc[9]
-        for col in dataFrameAustria.columns:
-            xArray.append(col)
-        xArray1 = xArray[1:]
-        x = np.array(xArray1)
+        country = input("Enter a country: ")
+        dataFrameCountry = dataFrame[dataFrame["country"] == country]
+        y = dataFrameCountry.loc[dataFrameCountry.index[0]]
+        x = dataFrameCountry.columns
+        x = x[1:]
         y = y[1:]
-        yp = np.array(y, dtype=float)
-        print(x)
-        print(y)
-        plt.plot(x, yp)
-        plt.title("Austria Life expectancy Projections")
+        plt.plot(x, y)
+        plt.title(f"{country} Life expectancy Projections")
         plt.xlabel("Year")
         plt.ylabel("Life expectancy")
+        plt.xticks(x[::40])
         plt.show()
-
+    except KeyboardInterrupt:
+        print("\nKeyboardInterrupt by User")
     except Exception as e:
         print("Error: ", e)
 
 
 if __name__ == "__main__":
     main()
+
+# resources
+# - https://mathworks.com/help/matlab/ref/xticks.html
