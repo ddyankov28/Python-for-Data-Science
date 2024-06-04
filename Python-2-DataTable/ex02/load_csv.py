@@ -2,6 +2,19 @@ import pandas as pd
 
 
 def load(path: str) -> pd.DataFrame:
+    '''
+    Reads .CSV file and
+    returns it as a Pandas DataFrame object
+    -------
+    @param
+        - path: str -> the path of the file
+    -------
+    @rtype
+        - Pandas DataFrame
+    -------
+    @return
+        - The data from file as a Pandas DataFrame ojbect
+    '''
     try:
         dataFrame = pd.read_csv(path)
     except Exception:

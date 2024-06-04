@@ -1,17 +1,20 @@
 from load_csv import load
 import matplotlib.pyplot as plt
-import numpy as np
 
 
 def main():
+    '''
+    Loads .CSV into a Pandas DataFrame and displays the country info
+    The graph has its own title and a legen for each axis
+    '''
     try:
         dataFrame = load("life_expectancy_years.csv")
         country = input("Enter a country: ")
         dataFrameCountry = dataFrame[dataFrame["country"] == country]
         y = dataFrameCountry.loc[dataFrameCountry.index[0]]
         x = dataFrameCountry.columns
-        x = np.array(x[1:])
-        y = np.array(y[1:])
+        x = x[1:]
+        y = y[1:]
         plt.plot(x, y)
         plt.title(f"{country} Life expectancy Projections")
         plt.xlabel("Year")
