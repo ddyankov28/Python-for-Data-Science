@@ -20,7 +20,7 @@ def load(path: str) -> pd.DataFrame:
     except Exception:
         print("Error: Path is bad or has bad format")
         return None
-    print(f"Loading dataset of dimensions {dataFrame.shape}")
+#    print(f"Loading dataset of dimensions {dataFrame.shape}")
     return dataFrame
 
 # resources
