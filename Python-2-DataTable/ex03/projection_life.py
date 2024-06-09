@@ -10,19 +10,24 @@ def main():
     axis and a legend for each graph
     '''
     try:
-        dfIncome = load("income_per_person_gdppercapita_ppp_inflation_adjusted.csv")
+        income = "income_per_person_gdppercapita_ppp_inflation_adjusted.csv"
+        dfIncome = load(income)
         dfLife = load("life_expectancy_years.csv")
-        # print(dfIncome[["1900"]])
-        # print("--------------------")
-        # print(dfLife[["1900"]])
         income = [value for value in dfIncome["1900"]]
         print(income)
         life = [value for value in dfLife["1900"]]
         print(life)
-        plt.scatter(income,life)
+        plt.scatter(income, life)
+        plt.title("1900")
+        xTicks = ([0, 1000, 3000, 5000, 7000, 9000, 10000])
+        xLabels = ["0", "1k", "3k", "5k", "7k", "9k", "10k"]
+        plt.xticks(xTicks, xLabels)
+        plt.xlabel("Gross domestic product")
+        plt.ylabel("Life Expectancy")
         plt.show()
     except Exception as e:
         print("Error: ", e)
+
 
 if __name__ == "__main__":
     main()
