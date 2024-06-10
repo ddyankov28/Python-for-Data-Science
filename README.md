@@ -34,6 +34,7 @@ Python for Data Science
 -   🐼 What is `Pandas`and how to use it
 -   📄 How read from files, display and manipulate data
 -   📊 How to use Data Visualization libs
+-   🔢 How to use matplotlib and plot data
 
 > [!TIP]
 > Useful resources
