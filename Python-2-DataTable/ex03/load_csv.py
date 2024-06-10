@@ -3,7 +3,7 @@ import pandas as pd
 
 def load(path: str) -> pd.DataFrame:
     '''
-    Reads .CSV file, prints the dimensions of the data set and
+    Reads .CSV file and
     returns it as a Pandas DataFrame object
     -------
     @param

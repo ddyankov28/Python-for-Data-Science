@@ -14,9 +14,7 @@ def main():
         dfIncome = load(income)
         dfLife = load("life_expectancy_years.csv")
         income = [value for value in dfIncome["1900"]]
-        print(income)
         life = [value for value in dfLife["1900"]]
-        print(life)
         plt.scatter(income, life)
         plt.title("1900")
         xTicks = ([0, 1000, 3000, 5000, 7000, 9000, 10000])
@@ -25,6 +23,8 @@ def main():
         plt.xlabel("Gross domestic product")
         plt.ylabel("Life Expectancy")
         plt.show()
+    except KeyboardInterrupt:
+        print("\nKeyboardInterrupt by User")
     except Exception as e:
         print("Error: ", e)
 

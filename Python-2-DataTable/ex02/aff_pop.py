@@ -88,6 +88,8 @@ def main():
         yTicks = plt.gca().get_yticks()
         plt.yticks(yTicks[1:-1:2], [f"{tick:.0f}M" for tick in yTicks[1:-1:2]])
         plt.show()
+    except KeyboardInterrupt:
+        print("\nKeyboardInterrupt by User")
     except Exception as e:
         print("Error: ", e)
 
