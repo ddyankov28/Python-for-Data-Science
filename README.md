@@ -30,12 +30,14 @@ Python for Data Science
 -   🖼️ How to use image manipulating libraries
 -   📚 How the images are represented in arrays
 
-##  🐍 `Python-1-DataTable` 🐍
+##  🐍 `Python-2-DataTable` 🐍
 -   🐼 What is `Pandas`and how to use it
 -   📄 How read from files, display and manipulate data
 -   📊 How to use Data Visualization libs
 -   🔢 How to use matplotlib and plot data
 
+##  🐍 `Python-3-OOP` 🐍
+-   🏫 Python Classes
 > [!TIP]
 > Useful resources
 
