@@ -13,6 +13,8 @@ class Character(ABC):
         '''Docstring Die method'''
         self.is_alive = False
 
+    def __str__(self):
+        return "Stringaaa"
 
 class Stark(Character):
     '''Docstring Stark(Character) Class'''
