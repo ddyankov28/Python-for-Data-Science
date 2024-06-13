@@ -7,37 +7,41 @@ Python for Data Science
 > Here I am going to share what I have learned from the Python Piscine
 
 ##  🐍 `Python-0-Starting` 🐍
--   🔧 The basic data structures and how to manipulate them
--   ⏰ How to work with and manipulate the time
--   📅 How to format time and strings, what are scientific values
+-   🔧 Basic data structures and how to manipulate them
+-   ⏰ Work with and manipulate the time
+-   📅 Format time and strings, what are scientific values
 -   🔍 Identification of object type and type-based output
 -   🛠️ Function Implementation
 -   🚫 The NULL Types
--   🔧 How to use argv in python
--   🏁 How to define a main function and to use it
--   👀 What is `flake8` and how to use it
--   📝 What is the `__doc__` string
+-   🔧 Argv in python
+-   🏁 Main function and to use it
+-   👀 `flake8` and how to use it
+-   📝 `__doc__` string
 -   🔍 Filter function
 -   🔄 `List comprehensions` and `Lambda`
--   🌱 The `yield` keyword
+-   🌱 `yield` keyword
 -   📊 `tqdm` and how to create progress bars with it
 -   📦 `Python Packages` and how to create one
 
 ##  🐍 `Python-1-Array` 🐍
--   🎲 What is `NumPy` and how to use it
--   📐 How to use multidimensional arrays in python
--   🔪 How to slice strings and lists
--   🖼️ How to use image manipulating libraries
+-   🎲 `NumPy` and how to use it
+-   📐 Multidimensional arrays in python
+-   🔪 Slice strings and lists
+-   🖼️ Image manipulating libraries
 -   📚 How the images are represented in arrays
 
 ##  🐍 `Python-2-DataTable` 🐍
--   🐼 What is `Pandas`and how to use it
--   📄 How read from files, display and manipulate data
--   📊 How to use Data Visualization libs
--   🔢 How to use matplotlib and plot data
+-   🐼 `Pandas`and how to use it
+-   📄 Read from files, display and manipulate data
+-   📊 Data Visualization libs
+-   🔢 Matplotlib and plot data
 
 ##  🐍 `Python-3-OOP` 🐍
 -   🏫 Python Classes
+-   🎭 Abstract Classes
+-   👨‍👩‍👦 Inheritance and Diamond Inheritance
+-   🎨 Python Decorators
+
 > [!TIP]
 > Useful resources
 
