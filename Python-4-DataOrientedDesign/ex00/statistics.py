@@ -31,10 +31,9 @@ def calc_quartile(args):
     args = list(args)
     args.sort()
     quartile = []
-    median = calc_median(args, 0)
+    print(0.25 * len(args))
+    print(0.75 * len(args))
     print(args)
-    print(args.index(median))
-        
 
 
 def calculate(value, args):
