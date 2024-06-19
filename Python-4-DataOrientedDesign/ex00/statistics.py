@@ -28,13 +28,54 @@ def calc_quartile(args):
     Calculates and prints the 25% Quartile and the 75% Quartile in a sequence
     of numbers.
     '''
+    quartiles = []
     args = list(args)
     args.sort()
-    quartile = []
-    print(0.25 * len(args))
-    print(0.75 * len(args))
-    print(args)
+    if (len(args) % 2 == 0):
+        lower_half_end = int((len(args)+ 1) / 2)
+        lower_half = args[:lower_half_end]
+        quartile_1 = calc_median(lower_half, 0)
+        quartiles.append(quartile_1)
+        upper_half_begin = lower_half_end
+        upper_half = args[upper_half_begin:]
+        quartile_2 = calc_median(upper_half, 0)
+        quartiles.append(quartile_2)
+        print(f"quartile : {quartiles}")
+    else:
+        median = calc_median(args, 0)
+        lower_half_end = args.index(median)
+        lower_half = args[:lower_half_end]
+        upper_half_begin = lower_half_end + 1
+        upper_half = args[upper_half_begin:]
+        quartile_1 = calc_median(lower_half, 0)
+        quartiles.append(float(quartile_1))
+        quartile_2 = calc_median(upper_half, 0)
+        quartiles.append(float(quartile_2))
+        print(f"quartile : {quartiles}")
 
+
+def calc_std(args, flag):
+    '''
+    Calculates and prints the Standard Deviation - the average
+    distance from the mean value in q sequence of numbers
+    '''
+    mean = sum(args) / len(args)
+    result = 0
+    for num in args:
+        result += pow((num - mean), 2)
+    result /= len(args)
+    standard_deviation = pow(result, 0.5)
+    if flag:
+        print(f"std : {standard_deviation}")
+    return result
+
+
+def calc_var(args):
+    '''
+    Calculates the variance. 
+    '''
+    variation = calc_std(args, 0)
+    print(f"var : {variation}")
 
 def calculate(value, args):
     '''
@@ -53,7 +94,7 @@ def calculate(value, args):
     elif value == "quartile":
         calc_quartile(args)
     elif value == "std":
-        calc_std(args)
+        calc_std(args, 1)
     else:
         calc_var(args)
 
@@ -93,3 +134,5 @@ def ft_statistics(*args: any, **kwargs: any) -> None:
 # resources
 # - https://www.w3schools.com/python/gloss_python_function_arbitrary_arguments.asp
 # - https://www.w3schools.com/python/python_ml_mean_median_mode.asp
+# - https://www.calculatorsoup.com/calculators/statistics/quartile-calculator.php
+# - https://www.youtube.com/watch?v=esskJJF8pCc&ab_channel=DATAtab
