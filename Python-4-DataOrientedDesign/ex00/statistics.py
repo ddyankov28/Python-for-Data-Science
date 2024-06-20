@@ -40,6 +40,9 @@ def calc_quartile(args):
         upper_half = args[upper_half_begin:]
         quartile_2 = calc_median(upper_half, 0)
         quartiles.append(quartile_2)
+        #print(args)
+        #print(lower_half)
+        #print(upper_half)
         print(f"quartile : {quartiles}")
     else:
         median = calc_median(args, 0)
@@ -51,6 +54,9 @@ def calc_quartile(args):
         quartiles.append(float(quartile_1))
         quartile_2 = calc_median(upper_half, 0)
         quartiles.append(float(quartile_2))
+        #print(args)
+        #print(lower_half)
+        #print(upper_half)
         print(f"quartile : {quartiles}")
 
 
