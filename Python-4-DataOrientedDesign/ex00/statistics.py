@@ -18,10 +18,11 @@ def calc_median(args, flag):
         n2_index = n1_index + 1
         median = (args[n1_index] + args[n2_index]) / 2
     else:
-        median = args[int((len(args)+ 1) / 2) - 1]
+        median = args[int((len(args) + 1) / 2) - 1]
     if flag:
         print(f"median : {median}")
     return median
+
 
 def calc_quartile(args):
     '''
@@ -32,7 +33,7 @@ def calc_quartile(args):
     args = list(args)
     args.sort()
     if (len(args) % 2 == 0):
-        lower_half_end = int((len(args)+ 1) / 2)
+        lower_half_end = int((len(args) + 1) / 2)
         lower_half = args[:lower_half_end]
         quartile_1 = calc_median(lower_half, 0)
         quartiles.append(quartile_1)
@@ -40,9 +41,9 @@ def calc_quartile(args):
         upper_half = args[upper_half_begin:]
         quartile_2 = calc_median(upper_half, 0)
         quartiles.append(quartile_2)
-        #print(args)
-        #print(lower_half)
-        #print(upper_half)
+#       print(args)
+#       print(lower_half)
+#       print(upper_half)
         print(f"quartile : {quartiles}")
     else:
         median = calc_median(args, 0)
@@ -54,9 +55,9 @@ def calc_quartile(args):
         quartiles.append(float(quartile_1))
         quartile_2 = calc_median(upper_half, 0)
         quartiles.append(float(quartile_2))
-        #print(args)
-        #print(lower_half)
-        #print(upper_half)
+#       print(args)
+#       print(lower_half)
+#       print(upper_half)
         print(f"quartile : {quartiles}")
 
 
@@ -78,10 +79,11 @@ def calc_std(args, flag):
 
 def calc_var(args):
     '''
-    Calculates the variance. 
+    Calculates the variance.
     '''
     variation = calc_std(args, 0)
     print(f"var : {variation}")
+
 
 def calculate(value, args):
     '''
@@ -115,7 +117,7 @@ def ft_statistics(*args: any, **kwargs: any) -> None:
         - *args: any -> unknown amount of numeric values
         - **kwargs: any -> unknown amount of keyword arguments
     '''
-    try:    
+    try:
         stats = ["mean", "median", "quartile", "std", "var"]
         for value in kwargs.values():
             if value not in stats:
@@ -125,8 +127,8 @@ def ft_statistics(*args: any, **kwargs: any) -> None:
                 continue
             calculate(value, args)
     except Exception as e:
-        print("Error: ", e)    
-    
+        print("Error: ", e)
+
 # NOTES:
 # - If you don't know how many arguments that will be passed into a function
 #   add a '*' before the parameter name in the function definition.
@@ -134,11 +136,8 @@ def ft_statistics(*args: any, **kwargs: any) -> None:
 #   the items accordingly
 # - You can also send arguments with the key = value syntax. This way
 #   the order of the arguments does not matter
-
-
-
 # resources
-# - https://www.w3schools.com/python/gloss_python_function_arbitrary_arguments.asp
-# - https://www.w3schools.com/python/python_ml_mean_median_mode.asp
-# - https://www.calculatorsoup.com/calculators/statistics/quartile-calculator.php
-# - https://www.youtube.com/watch?v=esskJJF8pCc&ab_channel=DATAtab
+# https://www.w3schools.com/python/gloss_python_function_arbitrary_arguments.asp
+# https://www.w3schools.com/python/python_ml_mean_median_mode.asp
+# https://www.calculatorsoup.com/calculators/statistics/quartile-calculator.php
+# https://www.youtube.com/watch?v=esskJJF8pCc&ab_channel=DATAtab
