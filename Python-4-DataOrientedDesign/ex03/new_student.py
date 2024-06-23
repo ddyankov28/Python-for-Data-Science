@@ -2,18 +2,32 @@ import random
 import string
 from dataclasses import dataclass, field
 
+
 def generate_id() -> str:
-    return "".join(random.choices(string.ascii_lowercase, k = 15))
+    '''
+    Generates a string with 15 char len that is random generated
+    from lowercase letters
+    '''
+    return "".join(random.choices(string.ascii_lowercase, k=15))
+
 
 @dataclass
 class Student:
-    name : str
-    surname : str
-    active : bool = True
-    login : str = field(init=False, repr=True)
-    id : str = field(init=False, repr=True)
-    
+    '''
+    Dataclass Student that contains of items corresponding to a
+    profile of a student
+    '''
+    name: str
+    surname: str
+    active: bool = True
+    login: str = field(init=False, repr=True)
+    id: str = field(init=False, repr=True)
+
     def __post_init__(self):
+        '''
+        The post initialization method which assigns values to
+        the items which are not initialized during the __init__ method
+        '''
         self.login = self.name[0] + self.surname
         self.id = generate_id()
 
