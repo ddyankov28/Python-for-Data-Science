@@ -43,6 +43,11 @@ Python for Data Science
 -   🎨 Python Decorators
 
 ##  🐍 `Python-4-DataOrientedDesign` 🐍
+-   ♾️  Python Arbitrary `*args`and Arbitrary Keyword arguments `**kwargs`
+-   🔢 `Mean`, `Median`, `Quartile`, `Standard Deviation` and `Variance` of a sequence of numbers
+-   📜 Python `Closure`
+-   🎁 `Wrappers` in Python and how to use them
+-   📦 `dataclasses` and Post initializing methods
 
 
 > [!TIP]
